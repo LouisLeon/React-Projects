@@ -47,6 +47,12 @@ class Board extends React.Component {
   }
 }
 
+function Title(props) {
+  return(
+  <div className="title">Tic Tac Toe</div>
+    );
+}
+
 class Game extends React.Component {
   constructor(props){
     super(props);
@@ -86,7 +92,6 @@ class Game extends React.Component {
   render() {
     const history = this.state.history;
     const current = history[this.state.stepNumber];
-    //var winnerLine = calculateWinner(current.squares);
     var winner = calculateWinner(current.squares);
     
     const moves = history.map((step,move) => {
@@ -116,6 +121,8 @@ class Game extends React.Component {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }
     return (
+    <React.Fragment>
+      <Title/>
       <div className="game">
         <div className="game-board">
           <Board 
@@ -128,6 +135,7 @@ class Game extends React.Component {
           <ol>{moves}</ol>
         </div>
       </div>
+    </React.Fragment>
     );
   }
 }
