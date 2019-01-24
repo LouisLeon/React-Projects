@@ -1,5 +1,8 @@
 ![Alt text](https://i.imgur.com/pAhik3U.png "React Tic Tac Toe")
 
+This is traditional tic tac toe with an added feature to have a history of different move states.<br>
+You are able to 'undo' one or more moves in order to play a different move.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 1)Clone repo
