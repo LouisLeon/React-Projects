@@ -1,3 +1,5 @@
+![Alt text](https://i.imgur.com/pAhik3U.png "React Tic Tac Toe")
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 1)Clone repo
