@@ -9,6 +9,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 You can try it [here](https://louisleon.github.io/React-tic-tac-toe/) for FREE!
 
+## Instructions for Download
+
 1)Clone repo
 
 2)`npm install`
