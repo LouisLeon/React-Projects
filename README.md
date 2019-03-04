@@ -5,7 +5,9 @@ You are able to 'undo' one or more moves in order to play a different move.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-You can try it here for FREE!: [Tic Tac Toe](https://louisleon.github.io/React-tic-tac-toe/)
+## Try it out
+
+You can try it [here](https://louisleon.github.io/React-tic-tac-toe/) for FREE!
 
 1)Clone repo
 
